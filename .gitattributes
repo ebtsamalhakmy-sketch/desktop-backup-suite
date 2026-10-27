@@ -1,0 +1,15 @@
+# Exclude build artifacts
+# Configuration for git attributes
+
+*.ico binary
+*.yml linguist-detectable=false
+*.map linguist-generated
+*.html linguist-vendored
+
+src/** linguist-detectable
+*.min.js linguist-generated
+docs/** linguist-vendored
+package-lock.json linguist-generated
+*.png binary
+*.sh text eol=lf
+src/*.ts linguist-detectable
